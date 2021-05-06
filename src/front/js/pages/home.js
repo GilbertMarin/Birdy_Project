@@ -1,24 +1,29 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
+import { NavbarBirdy } from "../component/navbar";
+import logoPrincipal from "../../img/logoPrincipal.png";
+
 import "../../styles/home.scss";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
-		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImageUrl} />
-			</p>
-			<div className="alert alert-info">{store.message || "Loading message from the backend..."}</div>
-			<p>
-				This boilerplate comes with lots of documentation:{" "}
-				<a href="https://github.com/4GeeksAcademy/react-flask-hello/tree/95e0540bd1422249c3004f149825285118594325/docs">
-					Read documentation
-				</a>
-			</p>
-		</div>
+		<>
+			<NavbarBirdy />
+			<div className="header">
+				<div className="container pt-5">
+					<section className="row">
+						<div className="textBird">
+							<h1>Bird Watchers Club</h1>
+							<h2 className="textDiscover">Discover the songs of the most exotic birds</h2>
+						</div>
+						<div className="logoPrincipal">
+							<img className="logo" src={logoPrincipal} />
+						</div>
+					</section>
+				</div>
+			</div>
+		</>
 	);
 };

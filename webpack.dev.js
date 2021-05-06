@@ -19,7 +19,9 @@ module.exports = merge(common, {
         contentBase:  './dist',
         hot: true,
         disableHostCheck: true,
-        historyApiFallback: true,
+        historyApiFallback: {
+        disableDotRule: true
+        },
         public: publicUrl
     },
     plugins: [

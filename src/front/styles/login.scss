@@ -1,0 +1,182 @@
+body{
+    //background: linear-gradient(180deg,#1e6091 1%,#76c893 40%);
+    background: linear-gradient(180deg,#1e6091 ,#76c893 );
+    //background-color: #76c893;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0;
+}
+
+.formulary{
+    background: rgba(0, -0, -0, -.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+    color: white;
+}
+
+#testimonial {
+    margin: 15% 0;
+}
+
+.woodPecker{
+    height: 120px;
+}
+
+.woodPecker2{
+    height: 120px;
+    margin-top: 350px;
+}
+
+.birdsGroup{
+    margin: 20px 0;
+    width: 25%;
+}
+
+footer{
+    position: relative;
+}
+
+.chickens{
+    width: 18%;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+}
+
+@media (max-width: 1080px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        display: none;
+    }
+
+    .woodPecker{
+        display: none;
+    }
+
+    .woodPecker2{
+        display: none;
+    }
+
+    .birdsGroup{
+        display: none;
+    }
+    .chickens{
+        display: none;
+    }
+}
+
+.form-control{
+    background: darkgray;
+}
+.signin{
+    background: darkblue;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.logo{
+    width: 20%;
+}
+
+.container-fluid {
+  padding: 5% 15% 0;
+}
+
+.carousel-item{
+    padding: 0 15%;
+}
+
+.comment-card{
+    border-style: solid;
+    border-color: #fff;
+    padding: 5%;
+}
+
+.testimonials-image {
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    text-align: center;
+    padding: 0 5% 5%;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.nav-link-login {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.colored-section {
+  //background: linear-gradient(90deg,#1e6091 1%,#1a759f 40%);
+  color: #fff;
+}
+
+.title-image {
+  width: 20%;
+  //transform: rotate(25deg);
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+}
+
+#footer {
+  padding: 15% 15% 2%;
+}
+
+.social-icon {
+  font-size: 1rem;
+  margin: .8rem;
+}
+
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.signin:hover{
+    color: white;
+}
+
+.forgot{
+    text-decoration: none; 
+    text-decoration-style: none;
+    text-decoration-line: none;
+    color: white
+}
+
+.forgot:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+       
+}
+
+#login {
+    margin-bottom: 15%;
+}
